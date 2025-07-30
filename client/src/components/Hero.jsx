@@ -23,7 +23,7 @@ const Hero = () => {
             </div>
             <div className="flex items-center justify-center gap-3 mt-10 text-gray-500 text-sm sm:text-base font-medium">
                 <img src={assets.user_group} alt="users" className="h-9 sm:h-10 w-auto" />
-                <span className="whitespace-nowrap">
+                <span className="whitespace-nowrap px-auto">
                     Trusted by <strong className="text-gray-700 font-semibold">10k+</strong> creators worldwide
                 </span>
             </div>
