@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import "tailwindcss";
+
+*{
+  font-family: "Quicksand", sans-serif;
+}
+html, body {
+  overflow: visible !important;
+}
+
+@theme{
+  --color-primary: #5044E5;
+}
+
+.reset-tw, .reset-tw * {
+  all: revert !important;
+}
+
+.cl-modal,
+.cl-drawerRoot {
+  position: fixed !important;
+  z-index: 9999 !important;
+  inset: 0 !important;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0,0,0,0.5);
+}
+
+#navbar{
+  z-index: 10;
+}
