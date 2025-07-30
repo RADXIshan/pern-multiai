@@ -20,7 +20,6 @@ const Hero = () => {
                 <button onClick={() => { user ? navigate("/ai") : openSignIn(); }} className="px-6 py-3 bg-primary hover:bg-gray-900 text-white rounded-xl text-base font-semibold transition duration-300 shadow-md cursor-pointer hover:scale-105 active:scale-95">
                     Start Creating Now
                 </button>
-                <button className="bg-white px-10 py-3 rounded-xl border border-gray-400 hover:scale-105 active:scale-95 transition duration-300 cursor-pointer font-semibold  hover:bg-gray-800 hover:text-white text-base">Watch Demo</button>
             </div>
             <div className="flex items-center justify-center gap-3 mt-10 text-gray-500 text-sm sm:text-base font-medium">
                 <img src={assets.user_group} alt="users" className="h-9 sm:h-10 w-auto" />
